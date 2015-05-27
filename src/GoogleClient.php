@@ -19,6 +19,7 @@ class GoogleClient extends BaseClient{
      * @var string
      */
     public $format = 'json';
+    public $decode_json = true;
 
     /**
 	 *
