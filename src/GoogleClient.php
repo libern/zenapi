@@ -29,7 +29,6 @@ class GoogleClient extends BaseClient{
 		$this->access_token = $access_token;
 	}
 	
-
 	protected function _paramsFilter(&$params){
 		$params['access_token'] = $this->access_token;
 	}
