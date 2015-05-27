@@ -1,5 +1,5 @@
 {
-	"name": "shen2/zenapi",
+	"name": "libern/zenapi",
 	"description": "一个更好的OAuth2访问类，同时支持微博、QQ空间、腾讯微博、人人、百度、搜狐、开心、豆瓣、Google、Instagram、土豆、优酷、奇艺等社交网站",
 	"minimum-stability": "stable",
 	"license": "MIT",

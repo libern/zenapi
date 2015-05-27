@@ -10,11 +10,17 @@ class GoogleClient extends BaseClient{
 	/**
 	 * Set up the API root URL.
 	 *
-	 * @ignore
+     * @url https://developers.google.com/apis-explorer/#p/oauth2/v2/
+     *
+     * @ignore
 	 */
 	public $host = 'https://www.googleapis.com/';
-	
-	/**
+    /**
+     * @var string
+     */
+    public $format = 'json';
+
+    /**
 	 *
 	 * @param string $access_token
 	 */
@@ -32,6 +38,6 @@ class GoogleClient extends BaseClient{
 	}
 	
 	protected function _paramsFilter(&$params){
-		$params['key'] = $this->access_token;
+		$params['access_token'] = $this->access_token;
 	}
 }
